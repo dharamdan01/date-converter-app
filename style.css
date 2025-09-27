@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  color: #333;
+  padding: 40px 20px;
+}
+
+/* Heading */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #007bff;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 420px;
+}
+
+form input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+form input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+}
+
+form button {
+  padding: 12px;
+  background: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* Result zones */
+p {
+  margin-top: 15px;
+  font-size: 18px;
+  padding: 14px 16px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 420px;
+  line-height: 1.5;
+}
+
+p span {
+  font-weight: bold;
+  color: #007bff;
+  margin-left: 8px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  form, p {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  form input, form button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
