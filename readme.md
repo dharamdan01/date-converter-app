@@ -25,7 +25,7 @@ This app allows users to enter time in **milliseconds** and instantly see the re
 ---
 
 ## 📸 Demo & Preview  
-👉 [Live Demo](#) *(add your deployed link on GitHub Pages / Netlify / Vercel here)*  
+👉 [Live Demo] (https://date-converter-app-javascript.netlify.app/)
 
 ## 📸 Preview
 ![Bill Divider Demo](/assests/project-demo.png)
